@@ -1,0 +1,50 @@
+FEEDBACK:
+
+Overall well done.
+   However you are losing valuable points due to not following key requirements of the project description.
+   If you have any questions come to office hours or post on discussion forum.
+   
+   
+-0.5 Do *not* remove or change contents from the given test file, you may add to it, but not remove.
+	For example: changing the interface for CellularData's toString() method results in:
+CellularData@1540e19d
+	Instead of calling the method	datatable.printTableData()
+	override the toString() method in class CellularData.	   
+	
+	Next time minus for each missing interface (i.e. class/method) required by 
+	project description and test file (provided in your assigned GitHub repo).
+	
+	** Keep in mind that I run two test files when checking your work: **
+	   1) I first run your test file (i.e. the one you submit and perhaps modify). 
+	   2) Then, I run my test file. In my test file, I never call your "insert" method.
+
+
+
+-0 Missing documentation of source code in Javadocs.
+   First, comment your code, especially the new additions to your project,
+   in the format required by the Javadocs generator: 
+   Then for ease of reference, generate Javadocs based on your documentation.
+   For example, instead of:
+	// stores the name of the country in one array and their cellular data in 2D array
+    public void addCountry(String countryName, double[] countrySubscriptionData)
+	{ ... }
+	
+	Change as follows:
+	/**
+	 * Adds the country data passed in...
+	 * @param countryName  [Brief description.]
+	 * @param countrySubscriptionData  [Brief description.]
+	 */
+    public void addCountry(String countryName, double[] countrySubscriptionData)
+	{ ... }
+
+    NOTE: An example is provided in Modules titled "Example Program Submission".
+    
+    
+-0 For future, place RUN.txt under the "resources" folder. 
+
+
++0.5 Excellent descriptive README outlining the purpose of each file.
+
+-Bita.
+
